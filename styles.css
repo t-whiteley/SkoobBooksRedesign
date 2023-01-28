@@ -33,13 +33,12 @@ a {
 /* Cover */
 .cover {
     background-color: #E8C4C4;
-    height: 500px;
+    height: 30%;
     padding: 3% 0;
 }
 
 h1 {
     color: #2B3A55;
-    /* color: white; */
     font-weight: 400;
     font-size: 3.5rem;
     font-family: "Playfair Display";
@@ -47,7 +46,8 @@ h1 {
 }
 
 .cover-pic {
-    width: 80%;
+    width: 70%;
+    /* height: 25%; */
 }
 
 .pic-div {
@@ -78,21 +78,44 @@ td {
 }
 
 .opening-times-div {
-    padding-top: 13%;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
-/* Location */
-.location {
-    background-color: #F2E5E5;
-    padding-top: 3%;
-    height: 400px;
+/* Reviews */
+.review-div {
+    background-color: #CE7777;
 }
 
-.center {
-    padding-top: 5%;
+.review-header {
+    color: #2B3A55;
+    font-size: 1.5rem;
     text-align: center;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 0;
+}
+
+.control-icon {
+    color: white;
+    background-size: 15%;
+    font-size: 3rem;
+}
+
+.carousel-item {
+    height: 40%;
+    padding: 5% 25%;
+    padding-top: 1%;
+}
+
+.review {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 1%;
+    font-style: italic;
+}
+
+.bi-star-fill {
+    color: white;
 }
 
 /* About */
@@ -102,6 +125,19 @@ td {
 
 .about-pic {
     width: 80%;
+}
+
+/* Location */
+.location {
+    background-color: #F2E5E5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 3%;
 }
 
 /* Footer */
